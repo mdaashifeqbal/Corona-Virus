@@ -1,0 +1,417 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* HomePage with Header */
+.homePage {
+  height: 570px;
+  width: 1538px;
+  background-color: #f0ecf9;
+  border-bottom-right-radius: 250px;
+}
+.header {
+  display: flex;
+  justify-content: space-evenly;
+}
+.covid {
+  margin-left: 20px;
+  font-size: 40px;
+  font-weight: 100;
+}
+.otherPanel ul {
+  margin-top: 8px;
+  display: flex;
+  gap: 90px;
+}
+li {
+  list-style-type: none;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+a {
+  text-decoration: none;
+}
+/* HomePAge with image of awaress */
+.iamge {
+  height: 410px;
+  width: 615px;
+  background: url("maskCover.png");
+  background-size: cover;
+  border-bottom-right-radius: 250px;
+  margin-top: 115px;
+  margin-left: 308px;
+}
+.heroSection {
+  display: flex;
+  align-items: center;
+}
+.textarea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex-direction: column;
+}
+
+.heroButton {
+  width: 110px;
+}
+.firstText {
+  width: 450px;
+  height: 16px;
+  flex-shrink: 0;
+  color: #a894ce;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  top: 45px;
+  left: 50px;
+  right: 100px;
+}
+.secondText {
+  width: 652px;
+  height: 64px;
+  flex-shrink: 0;
+  color: #4000b4;
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: relative;
+  left: 148px;
+  top: 20px;
+}
+.thirdText {
+  color: #9571d7;
+  font-family: Hind;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  left: 30px;
+}
+.heroButton {
+  width: 179px;
+  height: 48px;
+  border-color: #f0ecf9;
+  border-radius: 22px;
+  position: relative;
+  left: 15px;
+  bottom: 15px;
+  cursor: pointer;
+  background: #6f42c1;
+  color: #fff;
+  font-family: Hind;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* statictics information of cases */
+.statistics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.first {
+  width: 546px;
+  height: 49.852px;
+  flex-shrink: 0;
+  color: #7f54cd;
+  font-family: Hind;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  left: 95px;
+}
+.second {
+  color: #000;
+  font-family: Hind;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.Data {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+.data i {
+  font-size: 50px;
+}
+.data {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+/* what is corona Virus */
+.coronaVirusInfo {
+  margin-top: 10px;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 250px;
+  background-color: #f4f2f6;
+}
+.coronaimage {
+  margin-top: 60px;
+  width: 580px;
+  height: 360px;
+  flex-shrink: 0;
+  background: url("corona.jpg");
+  background-size: cover;
+  position: relative;
+  right: 80px;
+}
+.coronaText {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.coronaText h2 {
+  color: #6415f1;
+}
+.coronaText p {
+  color: #bface1;
+}
+
+#coronaList {
+  position: relative;
+  left: 18px;
+  bottom: 10px;
+}
+#coronaList li {
+  list-style-type: disc;
+  color: #bface1;
+  position: relative;
+  bottom: 8px;
+}
+.learnmore1 {
+  width: 179px;
+  height: 48px;
+  border-color: #f0ecf9;
+  border-radius: 22px;
+  position: relative;
+  left: 15px;
+  bottom: 15px;
+  cursor: pointer;
+  background: #6f42c1;
+  color: #fff;
+  font-family: Hind;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  left: 50px;
+  cursor: pointer;
+}
+/* why it is Dangerous */
+.dangerous {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.dangerousimage {
+  margin-top: 60px;
+  width: 580px;
+  height: 360px;
+  flex-shrink: 0;
+  background: url("dangerous.jpg");
+  background-size: cover;
+  margin-left: 55px;
+}
+#textarea p {
+  text-transform: uppercase;
+  color: #5d11e5;
+  font-family: Mulish;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 23px; /* 92% */
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 100px;
+}
+#textarea {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+#textarea ul li {
+  list-style-type: disc;
+  color: #bface1;
+  text-transform: capitalize;
+  position: relative;
+  left: 51px;
+}
+#textarea h3 {
+  color: #bface1;
+  position: relative;
+  left: 35px;
+}
+.learnmore2 {
+  width: 179px;
+  height: 48px;
+  border-color: #f0ecf9;
+  border-radius: 22px;
+  cursor: pointer;
+  background: #6f42c1;
+  color: #fff;
+  font-family: Hind;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  left: 220px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+/* Next Page or Prevention and protection Button */
+.nextpagebutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 300px;
+}
+.mask {
+  position: relative;
+  left: 205px;
+  color: #5d11e5;
+}
+.people {
+  position: relative;
+  left: 160px;
+  color: #5d11e5;
+}
+.nextpagebutton i {
+  font-size: 2rem;
+}
+#prepro {
+  width: 250px;
+  height: 48px;
+  border-color: #f0ecf9;
+  border-radius: 22px;
+  cursor: pointer;
+  background: #6f42c1;
+  color: #fff;
+  font-family: Hind;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  left: 180px;
+  cursor: pointer;
+  text-transform: capitalize;
+  text-align: center;
+}
+/* loader button when click to button */
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(5px); /* Background blur */
+  background-color: rgba(255, 255, 255, 0.2); /* Transparent tint */
+  z-index: 9999;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader::after {
+  content: "";
+  width: 60px;
+  height: 60px;
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #6f42c1;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* footer with Abous Us and website links  */
+.footer {
+  height: 300px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1538px;
+  background-color: #f0ecf9;
+}
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.aboutUs h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  position: relative;
+  bottom: 25px;
+}
+.aboutUs p {
+  color: #7f54cd;
+  text-align: center;
+}
+.icons {
+  display: flex;
+  gap: 40px;
+  font-size: 35px;
+  justify-content: center;
+  align-items: center;
+  color: #9571d7;
+  cursor: pointer;
+}
+.Quicklinks h3 {
+  font-size: 1.5rem;
+}
+.Quicklinks ul li {
+  margin-top: 12px;
+}
+.helpfullinks h3 {
+  font-size: 1.5rem;
+  position: relative;
+  bottom: 20px;
+}
+.helpfullinks ul li {
+  margin-top: 12px;
+}
+.resources h3 {
+  font-size: 1.5rem;
+  position: relative;
+  bottom: 20px;
+}
+.resources ul li {
+  margin-top: 12px;
+}

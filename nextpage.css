@@ -1,0 +1,442 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* HomePage with Header */
+.homePage {
+  height: 570px;
+  width: 1538px;
+  background-color: #f0ecf9;
+  border-bottom-right-radius: 250px;
+}
+.header {
+  display: flex;
+  justify-content: space-evenly;
+}
+.covid {
+  margin-left: 20px;
+  font-size: 40px;
+  font-weight: 100;
+}
+.otherPanel ul {
+  margin-top: 8px;
+  display: flex;
+  gap: 90px;
+}
+li {
+  list-style-type: none;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+a {
+  text-decoration: none;
+}
+/* HomePAge with image of awareness */
+.iamge {
+  height: 410px;
+  width: 615px;
+  background: url("maskCover.png");
+  background-size: cover;
+  border-bottom-right-radius: 250px;
+  margin-top: 115px;
+  margin-left: 308px;
+}
+.heroSection {
+  display: flex;
+  align-items: center;
+}
+.textarea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex-direction: column;
+}
+
+.heroButton {
+  width: 110px;
+}
+.firstText {
+  width: 450px;
+  height: 16px;
+  flex-shrink: 0;
+  color: #a894ce;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  top: 45px;
+  left: 50px;
+  right: 100px;
+}
+.secondText {
+  width: 652px;
+  height: 64px;
+  flex-shrink: 0;
+  color: #4000b4;
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: relative;
+  left: 148px;
+  top: 20px;
+}
+.thirdText {
+  color: #9571d7;
+  font-family: Hind;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  left: 30px;
+}
+.heroButton {
+  width: 179px;
+  height: 48px;
+  border-color: #f0ecf9;
+  border-radius: 22px;
+  position: relative;
+  left: 15px;
+  bottom: 15px;
+  cursor: pointer;
+  background: #6f42c1;
+  color: #fff;
+  font-family: Hind;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.prevention {
+  width: 1518px;
+  height: 800px;
+  flex-shrink: 0;
+  background: var(--bgofheader, #f0ecf9);
+  margin-top: 80px;
+  display: flex;
+}
+.icons {
+  width: 50%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+}
+.firsticons {
+  height: 280px;
+  width: 170px;
+  position: relative;
+  top: 80px;
+}
+.stayhomeicons {
+  height: 45%;
+  width: 264px;
+  width: 170px;
+  flex-shrink: 0;
+  background-color: #cbb8ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stayhomeicons i {
+  color: blue;
+  font-size: 60px;
+  color: #864bf0;
+}
+.text p {
+  color: #7f54cd;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 23px; /* 153.333% */
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+#stayhomepara {
+  font-size: 8px;
+  font-weight: 200;
+  margin-top: 10px;
+  color: #9169db;
+}
+/* loader button when click to button */
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(5px); /* Background blur */
+  background-color: rgba(255, 255, 255, 0.2); /* Transparent tint */
+  z-index: 9999;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader::after {
+  content: "";
+  width: 60px;
+  height: 60px;
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #6f42c1;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* seondicons */
+.secondicons {
+  height: 280px;
+  width: 170px;
+  position: relative;
+  top: 400px;
+  right: 175px;
+}
+.handicons {
+  height: 45%;
+  width: 264px;
+  width: 170px;
+  flex-shrink: 0;
+  background-color: #cbb8ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.handicons i {
+  color: blue;
+  font-size: 60px;
+  color: #864bf0;
+}
+/* thirdicons */
+.thirdicons {
+  height: 280px;
+  width: 170px;
+  position: relative;
+  top: 160px;
+}
+.hygieneicons {
+  height: 45%;
+  width: 264px;
+  width: 170px;
+  flex-shrink: 0;
+  background-color: #cbb8ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hygieneicons i {
+  color: blue;
+  font-size: 60px;
+  color: #864bf0;
+}
+/* fourthicons */
+.fourthicons {
+  height: 280px;
+  width: 170px;
+  position: relative;
+  top: 480px;
+  right: 172px;
+}
+.maskicons {
+  height: 45%;
+  width: 264px;
+  width: 170px;
+  flex-shrink: 0;
+  background-color: #cbb8ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.maskicons i {
+  font-size: 60px;
+  color: #864bf0;
+}
+.preventioninfo {
+  height: 800px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+.preventioninfo p {
+  flex-shrink: 0;
+  color: #4000b4;
+  font-size: 25px;
+  font-weight: 700;
+  position: relative;
+  left: 40px;
+  top: 10px;
+}
+.preventioninfo ul li {
+  color: #9169db;
+  list-style-type: disc;
+  margin-top: 15px;
+  position: relative;
+  left: 80px;
+}
+/* how to protect yourself */
+.protectionSection {
+  height: 540px;
+  width: 100%;
+  margin-top: 50px;
+}
+.protection {
+  display: flex;
+  justify-content: center;
+}
+#maintext {
+  color: #5f15e3;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+}
+.points {
+  display: flex;
+  gap: 100px;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 160px;
+  position: relative;
+  bottom: 100px;
+  right: 70px;
+}
+.points ul li {
+  color: var(--main-para, #989898);
+  font-family: Mulish;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  margin-top: 15px;
+}
+.points ul p {
+  color: #9869e9;
+}
+.protectionimage {
+  width: 549px;
+  height: 444.321px;
+  flex-shrink: 0;
+  background: url("protection.png");
+  background-size: cover;
+}
+/* symptoms with icons section */
+.symptomsSection {
+  width: 100%;
+  height: 550px;
+  flex-shrink: 0;
+  background: var(--bgofheader, #f0ecf9);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px; /* space between items */
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.fa-virus-covid {
+  font-size: 5.5rem;
+  color: #864bf0;
+  margin-left: 200px;
+  display: block;
+}
+.symp p {
+  text-align: center;
+  color: var(--heading, #6f42c1);
+  position: relative;
+  right: 15px;
+  top: 20px;
+  font-size: 1.5rem;
+}
+.helplinebutton button{
+   height: 50px;
+   width: 150px;
+   border-radius: 28px;
+   position: relative;
+   left: 680px;
+   text-align: center;
+   background-color: #a37be9;
+   border: none;
+   color: #ffffff;
+   font-weight: 700;
+   text-align: center;
+   cursor: pointer;
+}
+/* footer section of next page  */
+.footer{
+  height: 300px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1538px;
+  background-color: #f0ecf9;
+}
+.aboutus {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.aboutus h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  position: relative;
+  bottom: 25px;
+}
+.aboutus p {
+  color: #7f54cd;
+  text-align: center;
+}
+.aboutusicons {
+  display: flex;
+  gap: 40px;
+  font-size: 35px;
+  justify-content: center;
+  align-items: center;
+  color: #9571d7;
+  cursor: pointer;
+}
+.quicklinks h3 {
+  font-size: 1.5rem;
+}
+.quicklinks ul li {
+  margin-top: 12px;
+}
+.helpfullinks h3 {
+  font-size: 1.5rem;
+  position: relative;
+  bottom: 20px;
+}
+.helpfullinks ul li {
+  margin-top: 12px;
+}
+.resources h3 {
+  font-size: 1.5rem;
+  position: relative;
+  bottom: 20px;
+}
+.resources ul li {
+  margin-top: 12px;
+}
